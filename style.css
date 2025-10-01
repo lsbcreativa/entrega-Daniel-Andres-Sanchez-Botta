@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+/* Zona del Body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2eee9; 
+  color: #2b1e19;
+  line-height: 1.6;
+}
+
+/* Contenedor general */
+.contenedor { 
+  width: min(1100px, 92vw);
+  margin-inline: auto; 
+}
+
+/* Espacios entre las secciones */
+.seccion { margin-block: 28px; }
+.img-resp { width: 100%; }
+.borde-suave { border-radius: 8px; }
+.sombra-suave { box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+
+/* Zona del Header */
+.site-header {
+  display: grid;                    
+  grid-template-columns: 160px 1fr 520px;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-bottom: 2px solid #c0a692;
+}
+
+/* Fondo de color para el Header */
+.fondo-header{
+  background: linear-gradient(180deg,#f9efe5 0%, #f1e2d3 100%);
+}
+
+/* Logo del Header */
+.logo {
+  width: 120px;
+  height: auto;
+  justify-self: start;
+}
+
+/* Encabezado H1 */
+.titulo-sitio {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: #3b2a22;
+}
+
+/* Navegacion del Header */
+.main-nav { justify-self: end; }
+
+/* Lista del menu */
+.nav-lista {
+  display: flex;                            
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links del menu */
+.nav-lista a {
+  padding: 8px 12px;
+  background: #fff8f1;
+  border: 1px solid #d5b8a6;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #3b2a22;
+  font-size: 14px;
+}
+
+/* Hover del menu */
+.nav-lista a:hover { background: #ffe9d2; }
+
+/* Link activo del menu */
+.nav-lista a.activo { border-color: #3b2a22; font-weight: 700; }
+
+/* Fondos para cada una de las secciones */
+.fondo-main   { background: #f7f3ef; }
+.fondo-bienv  { background: #fff7ef; padding: 22px; border: 1px solid #edd7c7; border-radius: 10px; }
+.fondo-cuadros{ background: #fbf1e7; padding: 18px; border: 1px solid #ecd9ca; border-radius: 10px; }
+.fondo-dife   { background: #fff;    padding: 22px; border: 1px solid #e6d5c7; border-radius: 10px; }
+.fondo-final  { background: #fff7f0; padding: 18px; border: 1px solid #ebd5c6; border-radius: 10px; }
+
+/* Zona de Bienvenida */
+.bienvenida { text-align: center; }
+.bienvenida p {
+  max-width: 800px;
+  margin: 10px auto 0;
+  color: #4a3a32;
+}
+
+/* las 4 Imagenes */
+.grilla-bs {                      
+  --bs-gutter-x: 20px;
+}
+
+/* Tarjetas de imagen cuadradas */
+.img-card {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  background: #d9c6b9;
+  border: 1px solid #c7ad99;
+  border-radius: 8px;
+}
+
+/* texto de la zona de lo que nos diferencia */
+.diferencia { text-align: center; }
+.diferencia p {
+  max-width: 760px;
+  margin: 10px auto 0;
+  color: #4a3a32;
+}
+
+/* Imagen grande antes del footer */
+/* Imagen grande antes del footer */
+.imagen-final { 
+  border: 1px solid #c7ad99; 
+  margin: 0 auto;           /* centra horizontalmente */
+}
+
+/* Zona del Footer */
+.site-footer {
+  background: linear-gradient(180deg,#2b1e19 0%, #1c1411 100%);
+  color: #fff;
+  padding: 22px 0 32px;
+  border-top: 3px solid #c0a692;
+}
+
+/* Lista de redes del footer */
+.footer-redes {
+  list-style: none;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+/* El espacio que hay entre items de redes sociales */
+.footer-redes li + li { margin-top: 8px; }
+
+/* Links de las redes sociales */
+.footer-redes a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover de redes */
+.footer-redes a:hover { text-decoration: underline; }
+
+/* Zona de los Derechos reservados */
+.derechos {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+}
+
+/* Responsive para tablet */
+@media (max-width: 980px) {
+  .site-header {
+    grid-template-columns: 140px 1fr auto;    
+    grid-auto-rows: auto;
+  }
+  .main-nav {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 8px;
+  }
+}
+
+/* Responsive para celulares */
+@media (max-width: 700px) {
+  .titulo-sitio { font-size: 24px; }
+}
