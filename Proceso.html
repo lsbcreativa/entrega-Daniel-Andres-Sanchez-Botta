@@ -1,114 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Procesos del Café de Especialidad</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proceso del Café de Especialidad</title>
 
-    <!-- link del Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    >
+  <!-- meta description para SEO sugerencia de Javi -->
+  <meta name="description" content="Etapas del café de especialidad: cultivo, secado, tostado, molienda y preparación. Conoce cómo cada proceso influye en el aroma y el sabor de la taza.">
 
-    <link rel="stylesheet" href="style.css">
+  <!-- link del Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Zona del Header con logo, titulo y nav -->
-    <header class="site-header fondo-header">
+  <!-- Zona del Header con logo, titulo y nav -->
+  <header class="site-header fondo-header">
 
-        <!-- Imagen del Logo -->
-        <img class="logo" src="imagenes/logo-cafe-de-especialidad.png" alt="logo cafe de especialidad">
+    <!-- Imagen del Logo -->
+    <img class="logo img-fluid" src="imagenes/logo-cafe-de-especialidad.png" alt="logo cafe de especialidad">
 
-        <!-- Encabezado H1 -->
-        <h1 class="titulo-sitio">Procesos del Café</h1>
+    <!-- Encabezado H1 -->
+    <h1 class="titulo-sitio">Proceso del Café de Especialidad</h1>
 
-        <!-- Zona del Nav -->
-        <nav class="main-nav">
-            <ul class="nav-lista">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="proceso.html" class="activo">Proceso</a></li>
-                <li><a href="metodos.html">Métodos de Preparación</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Zona del Nav -->
+    <nav class="main-nav">
+      <ul class="nav-lista">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="proceso.html" class="activo" aria-current="page">Proceso</a></li>
+        <li><a href="metodos.html">Métodos de Preparación</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Contenido Principal de Procesos -->
-    <main class="fondo-main">
+  <!-- Contenido Principal de Proceso -->
+  <main class="fondo-main">
 
-      <!-- Imagen Banner Procesos del Café -->
-      <section class="seccion container">
-        <img class="imagenbanner img-resp borde-suave sombra-suave" src="imagenes/procesos-del-cafe.png" alt="procesos del cafés">
-      </section>
+    <!-- Imagen del Banner de Proceso -->
+    <section class="seccion container">
 
-      <div class="container">
-        <h2>Introducción</h2>
-        <p>
-          El viaje del café desde la finca hasta la taza es un proceso apasionante que refleja tradición, esfuerzo y dedicación. Todo comienza con el cultivo en tierras de altura, donde caficultores seleccionan cuidadosamente las cerezas maduras. Luego, los granos pasan por etapas de beneficio y secado al sol, que permiten conservar sus cualidades únicas. Posteriormente, llegan al tueste, una fase clave donde se desarrollan los aromas y sabores que definirán su perfil sensorial. Finalmente, el café se transforma en una bebida que cautiva por su complejidad y autenticidad, convirtiéndose en una experiencia que honra a quienes lo cultivan y a quienes lo disfrutan.
-        </p>
-      </div>
+      <img class="img-resp img-fluid borde-suave sombra-suave" src="imagenes/procesos-del-cafe.png" alt="Proceso del café de especialidad">
+    </section>
 
-      <!-- Parte de los Procesos -->
-      <div class="container">
+    <!-- Introducción -->
+    <section class="seccion container fondo-bienv">
+      <h2>Introducción</h2>
+      <p>El proceso del café de especialidad desde la finca hasta la taza incluye etapas esenciales como el cultivo de café de altura, el beneficio y secado al sol, el tostado artesanal de café, la molienda según el método y la preparación precisa, y cada paso determina el perfil sensorial final. En el cultivo se seleccionan variedades arábicas y se cosechan cerezas maduras para asegurar trazabilidad y sostenibilidad; en el beneficio y el secado, ya sea lavado, honey o natural, se realzan aromas y acidez; en el tostado medio o ligero se preservan notas de cata como chocolate, frutos rojos, cítricos y flores; y con una molienda adecuada para V60, Chemex, Aeropress, prensa francesa o espresso, más una correcta proporción entre café y agua, temperatura y tiempo de extracción, se obtiene una taza limpia, balanceada y con origen identificado, ideal para quienes buscan calidad, transparencia y una experiencia real de café de especialidad.</p>
+ 
+    </section>
 
-        <!-- Proceso Cultivo -->
-        <div>
+    <!-- Cultivo -->
+    <section class="seccion container">
+      <div class="row align-items-center">
+        <!-- Imagen a la izquierda -->
+        <div class="col-12 col-md-6 mb-3">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/cultivodecafe.png" alt="Cultivo de Café">
+        </div>
+        <!-- Texto a la derecha -->
+        <div class="col-12 col-md-6">
           <h3 class="cultivodecafe">Cultivo</h3>
-          <img class="procesocultivo" src="imagenes/cultivodecafe.png" alt="Cultivo de Café">
-          <p>El proceso de cultivo del café comienza con la siembra de variedades seleccionadas en zonas de altura y clima adecuado. A lo largo del año se cuida el suelo con abonos orgánicos, riego controlado y sombra, además de podas y control de plagas para mantener plantas sanas. Tras la floración, las cerezas maduran lentamente hasta ponerse rojas; entonces se realiza la cosecha manual, eligiendo solo los frutos en su punto óptimo. Este manejo cuidadoso en la finca es la base de un café de calidad.</p>
+          <p>
+            El cultivo de café de especialidad comienza en altura, donde los microclimas y la amplitud térmica favorecen el desarrollo de azúcares y aromas; se seleccionan variedades arábicas adaptadas al terroir, se planifica la densidad de siembra y se aplica un manejo sostenible del cafetal con cuidado del suelo, cobertura vegetal, abonos orgánicos, riego eficiente y sombra que promueve biodiversidad. Las buenas prácticas agrícolas incluyen podas formativas y de mantenimiento, control biológico de plagas del café y monitoreo de la salud de las plantas para reducir el uso de agroquímicos y asegurar trazabilidad desde la finca. La cosecha manual selectiva de cerezas maduras, realizada en pasadas, garantiza que solo se recolecte fruta en su punto óptimo, lo que es clave para un perfil de taza limpio, dulce y balanceado y para obtener un café de especialidad de alta calidad.
+          </p>
         </div>
+      </div>
+    </section>
 
-        <!-- Proceso de Secado -->
-        <div>
+    <!-- Secado (alterno el orden con order-md-2) -->
+    <section class="seccion container">
+      <div class="row align-items-center">
+
+        <div class="col-12 col-md-6 order-md-2 mb-3">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/procesosecado.png" alt="Secado del Café">
+        </div>
+        <!-- Texto a la izquierda -->
+        <div class="col-12 col-md-6 order-md-1">
           <h3 class="secadocafe">Secado</h3>
-          <img class="procesosecado" src="imagenes/procesosecado.png" alt="Secado de cafe">
-          <p>El proceso de secado del café es una etapa clave para conservar la calidad del grano. Una vez recolectadas las cerezas maduras, los granos se extienden en patios o camas africanas bajo el sol, donde se remueven constantemente para lograr un secado uniforme y evitar la fermentación. Este proceso puede durar varios días, dependiendo del clima y del método empleado, hasta que los granos alcanzan el nivel de humedad ideal. Gracias a este cuidado, se preservan los aromas y sabores que caracterizan a un buen café.</p>
+          <p>
+            El secado del café de especialidad es una etapa crítica del beneficio que define limpieza, dulzor y estabilidad en la taza; después del despulpado en beneficio húmedo o de mantener la cereza en procesos natural y honey, los granos se extienden para su secado del café al sol en patios o en camas africanas elevadas, con volteos frecuentes para un secado uniforme, control de temperatura y circulación de aire que evitan fermentaciones indeseadas. En climas húmedos se combinan sombras, invernaderos o secadores mecánicos de flujo indirecto para proteger el grano y mantener una curva de secado lenta y controlada hasta alcanzar una humedad objetivo entre 10 y 12 por ciento, lo que reduce defectos como sabores astringentes o mohosos. Durante el proceso se retiran granos dañados, se monitorea la actividad de agua y, al final, se estabiliza el café pergamino en reposo antes del trillado y el almacenamiento en bolsas con barrera de oxígeno, asegurando trazabilidad, vida útil y un perfil de taza más dulce y balanceado para el café de especialidad.
+          </p>
+        </div>
+      </div>
+    </section>
+
+   <!-- Tostado -->
+    <section class="seccion container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 mb-3">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/procesotostado.png" alt="Tostado del Café">
         </div>
 
-        <!-- Proceso de Tostado -->
-        <div>
+        <div class="col-12 col-md-6">
           <h3 class="tostadocafe">Tostado</h3>
-          <img class="procesotostado" src="imagenes/procesotostado.png" alt="Secado de Café">
-          <p>El tostado del café es el momento en que los granos verdes liberan todo su potencial aromático y de sabor. Durante este proceso, los granos se exponen a altas temperaturas en tostadoras artesanales o industriales, lo que provoca reacciones químicas que desarrollan notas dulces, afrutadas, achocolatadas o florales, según el perfil buscado. El maestro tostador controla tiempo y temperatura con precisión para resaltar las características propias de cada origen. Un buen tostado transforma los granos en café listo para ser molido y preparado, marcando la diferencia entre un café común y uno de especialidad.</p>
+          <p>
+            El tostado del café de especialidad transforma el grano verde en una bebida aromática mediante un perfil de tostado cuidadosamente controlado que optimiza caramelización y reacciones de Maillard para resaltar el origen. En un tostado artesanal de café se definen carga, temperatura inicial, flujo de aire y ritmo de calentamiento para alcanzar el primer crack sin quemar azúcares ni aceites, y se ajusta el tiempo de desarrollo para lograr un tostado claro o medio que preserve notas de cata como chocolate, frutos rojos, cítricos y flores. Un buen perfil de tostado registra curva de temperatura y tasa de aumento, permite repetir resultados y se valida por catación con puntajes SCA que evalúan dulzor, acidez, cuerpo y limpieza. Tostadores de café de especialidad priorizan lotes frescos, descansos post tostado adecuados y almacenamiento en bolsas con válvula unidireccional para conservar aroma y consistencia en taza, ofreciendo un café con transparencia de origen y calidad estable para métodos como V60, Chemex, Aeropress, prensa francesa y espresso.
+          </p>
         </div>
 
-        <!-- Proceso de Molido -->
-        <div>
-          <h3 class="molidocafe">Molido</h3>
-          <img class="procesomolido" src="imagenes/procesomolidocafe.png" alt="Molido de Café">
-          <p>El molido del café es una etapa esencial que influye directamente en el sabor final de la bebida. Una vez tostados, los granos se muelen en diferentes grosores según el método de preparación: fino para espresso, medio para V60 o Chemex y grueso para prensa francesa. Un molido adecuado permite que el agua extraiga de manera equilibrada los aromas y compuestos del café, evitando sabores amargos o planos. Por ello, se recomienda moler el café justo antes de prepararlo, garantizando frescura y una experiencia sensorial más intensa.</p>
-        </div>
+      </div>
+    </section>
 
-        <!-- Proceso de Preparación -->
-        <div>
+    <!-- Molienda (alterno otra vez) -->
+    <section class="seccion container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 order-md-2 mb-3">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/procesomolidocafe.png" alt="Molienda del Café">
+        </div>
+        <div class="col-12 col-md-6 order-md-1">
+          <h3 class="molidocafe">Molienda</h3>
+          <p>
+           La molienda del café de especialidad define la extracción y el sabor final en la taza, por eso se recomienda usar un molinillo de muelas para obtener partículas homogéneas y ajustar el tamaño de molienda según el método de preparación; molienda fina para espresso con tiempos cortos y presión alta, molienda media para V60 y Chemex con filtrados limpios y acidez balanceada, molienda media gruesa para Aeropress con recetas versátiles, y molienda gruesa para prensa francesa con cuerpo pronunciado y menor sedimento. Moler justo antes de preparar conserva los compuestos aromáticos y reduce la oxidación, mientras que afinar la molienda en pequeños pasos permite corregir sobreextracción con sabores amargos o subextracción con notas ácidas y planas. Un control coherente de molienda junto con proporción café agua, temperatura del agua y tiempo de contacto ayuda a obtener una extracción estable y repetible, mejora la claridad sensorial y permite disfrutar un café de especialidad fresco con perfil definido según el origen y el proceso del grano.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preparación -->
+    <section class="seccion container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 mb-3">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/procesodepreparacion.png" alt="Preparación del Café">
+        </div>
+        <div class="col-12 col-md-6">
           <h3 class="preparacioncafe">Preparación</h3>
-          <img class="procesopreparacion" src="imagenes/procesodepreparacion.png" alt="Preparación de Café">
-          <p>La preparación del café es la etapa final donde todo el esfuerzo del cultivo, secado, tostado y molido se transforma en una bebida única. Dependiendo del método utilizado —como espresso, prensa francesa, V60 o Chemex— se logra resaltar distintos matices de aroma y sabor. La proporción entre café y agua, la temperatura y el tiempo de extracción son factores clave que determinan el resultado en la taza. Una buena preparación permite disfrutar de un café equilibrado, aromático y lleno de personalidad, que refleja el origen y el cuidado puesto en cada grano.</p>
+          <p>
+           La preparación del café de especialidad es el momento en que se define la extracción y se convierten los granos en una taza equilibrada; comienza con agua filtrada o de baja mineralización, proporción café agua coherente (por ejemplo 1:15 a 1:17), temperatura entre 90 y 96 grados y una receta clara para cada método: vertido controlado en V60 y Chemex con preinfusión para liberar CO2, inmersión en prensa francesa con tiempos más largos para mayor cuerpo, presión en espresso con molienda fina y tiempos cortos, y Aeropress con variables flexibles que permiten ajustar fuerza y claridad. La técnica de vertido, la turbulencia, el tiempo total y la molienda se corrigen en pasos pequeños para evitar subextracción con acidez punzante o sobreextracción con amargor, mientras que un molido fresco y una balanza mejoran la repetibilidad. Al final, un servicio adecuado en taza precalentada y un reposo breve antes de beber ayudan a percibir notas de cata como chocolate, frutos rojos, cítricos y flores, respetando el origen y el proceso del grano.
+          </p>
         </div>
-
       </div>
-    </main>
+    </section>
 
-    <!-- Zona dekl Footer -->
-    <footer class="site-footer">
-      <div class="contenedor footer-grid">
+  </main>
 
-        <!-- Las redes Sociales -->
-        <ul class="footer-redes">
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">X</a></li>
-        </ul>
+  <!-- Zona del Footer -->
+  <footer class="site-footer">
+    <div class="contenedor footer-grid">
 
-        <!-- Zona de los Derechos ReservadosS -->
-        <p class="derechos">Derechos reservados por Daniel Andrés Sánchez Botta 2025</p>
-      </div>
-    </footer>
+      <!-- Las redes Sociales -->
+      <ul class="footer-redes">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">X</a></li>
+      </ul>
+
+      <!-- Zona de los Derechos ReservadosS -->
+      <p class="derechos">Derechos reservados por Daniel Andrés Sánchez Botta 2025</p>
+    </div>
+  </footer>
 
 </body>
 </html>

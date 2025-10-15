@@ -1,114 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Métodos de Preparación</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Métodos de Preparación</title>
 
-    <!-- link del Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    >
+  <!-- meta description para SEO sugerencia de Javi -->
+  <meta name="description" content="Métodos de preparación más usados: V60, Chemex, Prensa Francesa y Aeropress. Conoce cómo cada técnica influye en el sabor y la textura del café de especialidad.">
 
-    <link rel="stylesheet" href="style.css">
+  <!-- link del Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="site-header fondo-header">
+  <!-- Zona del Header con logo, titulo y nav -->
+  <header class="site-header fondo-header">
 
-     <!-- Imagen del Logo -->
-     <img class="logo" src="imagenes/logo-cafe-de-especialidad.png" alt="logo cafe de especialidad">
+    <!-- Imagen del Logo -->
+    <img class="logo img-fluid" src="imagenes/logo-cafe-de-especialidad.png" alt="logo cafe de especialidad">
 
-     <!-- Encabezado H1 -->
-     <h1 class="titulo-sitio">Métodos de Preparación</h1>
+    <!-- Encabezado H1 -->
+    <h1 class="titulo-sitio">Métodos de Preparación</h1>
 
-     <!-- Zona del Nav -->
-     <nav class="main-nav">
-        <ul class="nav-lista">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="historia.html">Historia</a></li>
-            <li><a href="proceso.html">Proceso</a></li>
-            <li><a href="metodos.html" class="activo">Métodos de Preparación</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-     </nav>
+    <!-- Zona del Nav -->
+    <nav class="main-nav">
+      <ul class="nav-lista">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="proceso.html">Proceso</a></li>
+        <li><a href="metodos.html" class="activo" aria-current="page">Métodos de Preparación</a></li> 
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    </header>
+  <!-- contenido principal de Métodos -->
+  <main class="fondo-main">
 
-    <!-- contenido principal de Métodos -->
-    <main class="fondo-main">
+    <!-- Imagen del Banner -->
+    <section class="seccion container">
+      <!-- banner principal de la página -->
+      <img class="img-resp img-fluid borde-suave sombra-suave"
+           src="imagenes/metodos-de-preparacion.png"
+           alt="Banner de métodos de preparación del café">
+    </section>
 
-      <!-- Imagen Banner de Métodos de Preparación -->
-      <section class="seccion container">
-        <img class="imagenbanner img-resp borde-suave sombra-suave" src="imagenes/metodos-de-preparacion.png" alt="Métodos de preparación">
-      </section>
+    <!-- Introducción -->
+    <section class="seccion container fondo-bienv">
+      <h2>Introducción</h2>
+      <p>
+       Los métodos de preparación de café de especialidad son la fase donde cada grano muestra su potencial y personalidad; elegir entre V60, Chemex, prensa francesa o Aeropress cambia el aroma, la acidez, el cuerpo y la dulzura de la taza. En los métodos filtrados como V60 y Chemex se busca claridad y equilibrio con vertidos controlados y filtros de papel; en la prensa francesa se prioriza más cuerpo y aceites con inmersión total; con Aeropress se pueden ajustar tiempos y presiones para recetas versátiles en casa o en viaje. Una buena preparación de café incluye molienda adecuada al método, proporción café agua coherente, temperatura estable y técnica constante para lograr una extracción limpia y repetible. Probar distintos métodos de preparación de café en casa ayuda a descubrir perfiles de sabor del origen y proceso, optimizar la receta según preferencia y disfrutar una experiencia de café de especialidad con resultados consistentes.
+      </p>
+    </section>
 
-      <div class="container">
-          <!-- Subtítulo -->
-          <h2>Introducción</h2>
+    <!-- Título de la grilla de métodos -->
+    <section class="seccion container">
+      <h2 class="text-center">Métodos de Preparación más usados</h2>
+    </section>
 
-          <!-- Primer Párrafo -->
-          <p>
-            Los métodos de preparación del café son la etapa donde cada grano revela todo su potencial y personalidad. Dependiendo de la técnica elegida, es posible resaltar diferentes matices de aroma, acidez, cuerpo y dulzura. Con un espresso se obtiene una bebida intensa y concentrada, ideal para quienes buscan fuerza y carácter; mientras que con métodos como V60 o Chemex se logra una taza limpia, equilibrada y con notas más delicadas. <br><br>
-            La prensa francesa, por su parte, ofrece un café con cuerpo denso y aceites naturales, perfecto para los amantes de sabores profundos. <br><br>
-            Incluso la tradicional moka italiana aporta una experiencia única con su sabor fuerte y hogareño. <br><br>
-            Conocer y experimentar los distintos métodos de preparación permite descubrir la versatilidad del café de especialidad y disfrutarlo en todas sus formas, transformando cada taza en una experiencia distinta.
+    <!-- Grilla de 4 métodos (coloqué las imagen arriba luego el título y al final párrafo) -->
+    <section class="seccion container">
+      <div class="row grilla-bs text-center">
+
+        <!-- Método V60 -->
+        <div class="col-12 col-md-3 mb-4">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/v60.png" alt="V60">
+          <h3 class="mt-2">V60</h3>
+          <p class="mb-0">
+            El método V60 es un sistema de filtrado con cono en forma de V y ranuras helicoidales que, junto a un filtro de papel delgado, favorece un flujo constante y una extracción limpia; se prepara con vertidos lentos y circulares después de una preinfusión para desgasificar, controlando caudal, tiempo total y temperatura. Con una molienda media, proporción café agua cercana a 1:15–1:17 y un vertido por pulsos o continuo, el V60 resalta notas delicadas del café de especialidad como flores, cítricos, miel y frutos rojos, ofreciendo una taza clara, aromática y equilibrada que muestra con precisión el origen y el proceso del grano
           </p>
-
-          <!-- Segundo Subtitulo -->
-          <h2>Métodos de Preparación más usados</h2>
-
-          <!-- 4 Métodos de preparación -->
-          <div>
-            <h3>V60</h3>
-            <img class="v60metodo" src="imagenes/v60.png" alt="v60">
-            <p>El V60 es un método de preparación de café por goteo que utiliza un cono en forma de V con estrías en su interior y un filtro de papel delgado. Se coloca café molido dentro del filtro y se vierte agua caliente en forma lenta y circular, lo que permite un control preciso de la extracción. El resultado es una taza aromática, ligera y brillante, que resalta los sabores más delicados del café.</p>
-          </div>
-
-          <div>
-            <h3>Chemex</h3>
-            <img class="chemexmetodo" src="imagenes/chemex.png" alt="chemex">
-            <p>La Chemex es un método de preparación de café por filtrado que utiliza una jarra de vidrio en forma de reloj de arena y un filtro de papel grueso que retiene aceites y sedimentos. Se coloca café molido en el filtro y se vierte agua caliente en círculos para una extracción lenta y uniforme. El resultado es una taza limpia, clara y aromática, con sabores equilibrados que resaltan las notas del grano.</p>
-          </div>
-          
-          <div>
-            <h3>Prensa Francesa</h3>
-            <img class="prensametodo" src="imagenes/prensafrancesa.png" alt="prensa Francesa">
-            <p>La prensa francesa es un método de preparación de café por inmersión que consiste en una jarra de vidrio con un émbolo metálico y filtro de malla. Se coloca café molido grueso dentro de la jarra, se añade agua caliente y se deja reposar por unos minutos. Luego, se presiona lentamente el émbolo para separar el café líquido de los posos. El resultado es una bebida con cuerpo, intensa y con todos los aceites naturales del grano.</p>
-          </div>
-          
-          <div>
-            <h3>Aeropress</h3>
-            <img class="aeropressmetodo" src="imagenes/aeropress.png" alt="Aeropress">
-            <p>El Aeropress es un método de preparación de café por presión que utiliza un cilindro de plástico con un émbolo. Se coloca café molido en un filtro de papel, se añade agua caliente y, tras una breve inmersión, se presiona el émbolo para extraer la bebida. El resultado es un café intenso, limpio y versátil, ya que permite experimentar con diferentes tiempos y presiones de preparación.</p>
-          </div>
-
-          <!-- Párrafo Final -->
-          <p>En conclusión, los diferentes métodos de preparación de café como la Chemex, el V60, la prensa francesa y el Aeropress nos muestran la diversidad de sabores, aromas y texturas que se pueden obtener a partir de un mismo grano. Cada técnica resalta cualidades únicas del café, desde tazas limpias y brillantes hasta bebidas intensas y con cuerpo. Explorar estas formas de preparación no solo enriquece la experiencia de degustar café, sino que también permite apreciar la complejidad y el arte que existe detrás de cada taza.</p>
-
-          <!-- Tercera Imagen -->
-          <div class="terceraimagen">
-              <img class="medotidos" src="imagenes/metoditos.png" alt="méditos de preparacion">
-          </div>
-      </div>
-    </main>
-
-    <!-- Zona del Footer -->
-    <footer class="site-footer">
-        <div class="contenedor footer-grid">
-            <!-- Redes Sociales -->
-            <ul class="footer-redes">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">X</a></li>
-            </ul>
-            <p class="derechos">Derechos reservados por Daniel Andrés Sánchez Botta 2025</p>
         </div>
-    </footer>
-    
+
+        <!-- Método Chemex -->
+        <div class="col-12 col-md-3 mb-4">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/chemex.png" alt="Chemex">
+          <h3 class="mt-2">Chemex</h3>
+          <p class="mb-0">
+          La Chemex es un método de filtrado con jarra de vidrio en forma de reloj de arena y un filtro de papel grueso que retiene aceites y sedimentos, lo que produce una extracción muy limpia y estable. Se recomienda una molienda media, enjuagar el filtro para quitar sabores a papel y preinfusionar para liberar CO2 antes de los vertidos controlados. Con proporción cafe agua cercana a 1:15 a 1:17, temperatura constante y un flujo suave y uniforme, la Chemex ofrece una taza clara, aromática y equilibrada, con énfasis en dulzor y acidez brillante, ideal para resaltar el origen y la transparencia del café de especialidad.
+          </p>
+        </div>
+
+        <!-- Método Prensa Francesa -->
+        <div class="col-12 col-md-3 mb-4">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/prensafrancesa.png" alt="Prensa Francesa">
+          <h3 class="mt-2">Prensa Francesa</h3>
+          <p class="mb-0">
+            La prensa francesa es un método de inmersión total que utiliza un émbolo con malla metálica y funciona mejor con molienda gruesa para evitar exceso de sedimentos. Tras una breve preinfusión para desgasificar, se añade el resto del agua y se deja reposar sin hervir, normalmente entre 4 y 5 minutos, con proporciones cercanas a 1:15 o 1:16. Antes de bajar el émbolo se puede romper la “costra” y retirar la espuma para mayor limpieza, y es importante servir de inmediato para evitar sobreextracción. Al no usar filtro de papel, pasan aceites y micro partículas que aportan mayor cuerpo, textura densa y sabores más redondos, sacrificando algo de claridad pero ganando intensidad.
+          </p>
+        </div>
+
+        <!-- Método Aeropress -->
+        <div class="col-12 col-md-3 mb-4">
+          <img class="img-card borde-suave sombra-suave img-fluid" src="imagenes/aeropress.png" alt="Aeropress">
+          <h3 class="mt-2">Aeropress</h3>
+          <p class="mb-0">
+          El Aeropress es un método de preparación por presión manual con tiempos cortos que ofrece una taza limpia e intensa y permite mucha experimentación. Se puede usar en posición clásica o invertida, con filtro de papel o metálico, y ajustar molienda entre media y media fina según la receta. Tras una preinfusión breve para desgasificar, se agita suavemente, se controla la temperatura del agua y se presiona durante unos 20 a 30 segundos para una extracción estable. Con proporciones cercanas a 1:14 a 1:17 y tiempos totales de 1 a 2 minutos, se logran perfiles claros, dulces y consistentes en casa o de viaje.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Párrafo final antes de la imagen grande -->
+    <section class="seccion container fondo-dife">
+      <p class="mb-0">
+        No existe un único mejor método de preparación de café: cada técnica destaca un perfil distinto del mismo grano y puede cambiar el equilibrio entre aroma, acidez, cuerpo y dulzor. Elegí el que más te guste según si buscás claridad o intensidad, y ajustá variables como tamaño de molienda, proporción café/agua, temperatura y tiempo de extracción para afinar la taza a tu preferencia.
+      </p>
+    </section>
+
+    <!-- Imagen grande antes del Footer -->
+    <section class="seccion container">
+      <img class="imagen-final img-fluid" src="imagenes/metodos-filtrados.png" alt="Imagen ilustrativa de métodos de preparación">
+    </section>
+
+  </main>
+
+  <!-- Zona del Footer -->
+  <footer class="site-footer">
+    <div class="contenedor footer-grid">
+
+      <!-- Las redes Sociales -->
+      <ul class="footer-redes">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">X</a></li>
+      </ul>
+
+      <!-- Zona de los Derechos ReservadosS -->
+      <p class="derechos">Derechos reservados por Daniel Andrés Sánchez Botta 2025</p>
+    </div>
+  </footer>
+
 </body>
 </html>
