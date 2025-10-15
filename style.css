@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Reset basico */
 * {
   margin: 0;
@@ -11,8 +10,26 @@ img {
   height: auto;
 }
 
-/* Zona de las Variables */
+/*  Zona de las Variables basicas */
 /* Mixin simple para links del menu */
+/* Keyframe para el logo (latido) */
+@keyframes latido {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.08);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* Zona del Body */
 body {
   margin: 0;
@@ -27,7 +44,7 @@ body .contenedor {
   margin-inline: auto;
 }
 body {
-  /* Espacios */
+  /* Espacios  */
 }
 body .seccion {
   margin-block: 28px;
@@ -51,18 +68,21 @@ body header.site-header {
   gap: 12px;
   padding: 14px 18px;
   border-bottom: 2px solid #c0a692;
-  /* El Fondo de color para el Header */
+  /* Fondo de color para el Header */
 }
 body header.site-header.fondo-header {
   background: linear-gradient(180deg, #f9efe5 0%, #f1e2d3 100%);
 }
 body header.site-header {
-  /* Logo  */
+  /* Logo del Header */
 }
 body header.site-header .logo {
   width: 120px;
   height: auto;
   justify-self: start;
+  /* Animacion de latido (keyframe) */
+  animation: latido 1.3s ease-in-out infinite;
+  transform-origin: center center;
 }
 body header.site-header {
   /* Encabezado H1 */
@@ -75,11 +95,11 @@ body header.site-header .titulo-sitio {
   color: #3b2a22;
 }
 body header.site-header {
-  /* Zona del Navegador */
+  /* Navegacion del Header */
 }
 body header.site-header nav.main-nav {
   justify-self: end;
-  /* Lista del Menú */
+  /* Lista del menu */
 }
 body header.site-header nav.main-nav ul.nav-lista {
   display: flex;
@@ -87,7 +107,7 @@ body header.site-header nav.main-nav ul.nav-lista {
   list-style: none;
   margin: 0;
   padding: 0;
-  /* Links del menú */
+  /* Links del menu */
 }
 body header.site-header nav.main-nav ul.nav-lista a {
   padding: 8px 12px;
@@ -110,7 +130,7 @@ body header.site-header nav.main-nav ul.nav-lista a.activo {
   font-weight: 700;
 }
 body {
-  /* Zona del  Main y fondos */
+  /* Main y fondos */
 }
 body main.fondo-main {
   background: #f7f3ef;
@@ -140,7 +160,7 @@ body main .fondo-final {
   border-radius: 10px;
 }
 body main {
-  /* Zona de la Bienvenida */
+  /* Bienvenida */
 }
 body main .bienvenida {
   text-align: center;
@@ -151,7 +171,7 @@ body main .bienvenida p {
   color: #4a3a32;
 }
 body main {
-  /* Grilla Bootstrap */
+  /* Grilla Bootstrap (separacion horizontal) */
 }
 body main .grilla-bs {
   --bs-gutter-x: 20px;
@@ -167,7 +187,7 @@ body main .img-card {
   border-radius: 8px;
 }
 body main {
-  /* Zona de diferencia */
+  /* Bloque diferencia */
 }
 body main .diferencia {
   text-align: center;
