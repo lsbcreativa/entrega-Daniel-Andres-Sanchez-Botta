@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset basico */
 * {
   margin: 0;
@@ -37,6 +38,18 @@ body {
   background: #f2eee9;
   color: #2b1e19;
   line-height: 1.6;
+  /* Alineaci´m general de los h2 */
+}
+body h2 {
+  text-align: center;
+}
+body {
+  /* Alineación general de los h3 */
+}
+body h3 {
+  text-align: center;
+}
+body {
   /* Contenedor general */
 }
 body .contenedor {

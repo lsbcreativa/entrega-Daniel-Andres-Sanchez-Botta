@@ -57,6 +57,16 @@ body {
   color: $color-texto;
   line-height: 1.6;
 
+  /* Alineaci´m general de los h2 */
+  h2 {
+    text-align: center;
+  }
+
+  /* Alineación general de los h3 */
+  h3 {
+    text-align: center;
+  }
+
   /* Contenedor general */
   .contenedor { 
     width: min(1100px, 92vw);

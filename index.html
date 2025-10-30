@@ -38,7 +38,7 @@
     <h1 class="titulo-sitio">Café de Especialidad</h1>
 
     <!-- Zona del Nav -->
-    <nav class="main-nav">
+    <nav class="main-nav" role="navigation" aria-label="Navegación principal">
       <ul class="nav-lista">
         <li><a href="index.html" class="activo" aria-current="page">Inicio</a></li>
         <li><a href="historia.html">Historia</a></li>
@@ -47,6 +47,7 @@
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
+
   </header>
 
   <!-- Zona del Contenido Principal -->
@@ -55,7 +56,7 @@
     <!-- Imagen del Banner -->
     <section class="seccion banner container">
 
-      <img class="img-resp img-fluid borde-suave sombra-suave" src="imagenes/banner-home-cafe-de-especialidad.png.png" alt="Imagen de Banner">
+      <img class="img-resp img-fluid borde-suave sombra-suave" src="imagenes/banner-home-cafe-de-especialidad.png" alt="Imagen de Banner">
     </section>
 
     <!-- Zona del Texto de Bienvenida -->
@@ -71,16 +72,16 @@
     <section class="seccion container fondo-cuadros">
       <div class="row grilla-bs">
         <div class="col-6 col-md-3 mb-3">
-          <img class="img-card borde-suave img-fluid" src="imagenes/tomando cafe.png" alt="tomando café">
+          <img class="img-card borde-suave img-fluid" src="imagenes/tomando-cafe.png" alt="tomando café">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img class="img-card borde-suave img-fluid" src="imagenes/cultivando cafe.png" alt="cultivando café">
+          <img class="img-card borde-suave img-fluid" src="imagenes/cultivando-cafe.png" alt="cultivando café">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img class="img-card borde-suave img-fluid" src="imagenes/sirviendo espreso.png" alt="sirviendo espresso">
+          <img class="img-card borde-suave img-fluid" src="imagenes/sirviendo-espreso.png" alt="sirviendo espresso">
         </div>
         <div class="col-6 col-md-3 mb-3">
-          <img class="img-card borde-suave img-fluid" src="imagenes/granos de cafe.png" alt="granos de café">
+          <img class="img-card borde-suave img-fluid" src="imagenes/granos-de-cafe.png" alt="granos de café">
         </div>
       </div>
     </section>
@@ -94,29 +95,32 @@
       </p>
     </section>
 
-    <!-- Tercera Imagen antes del Footer -->
-    <section>
+<!-- Tercera Imagen antes del Footer -->
 
-      <img class="imagen-final img-fluid" src="imagenes/metodos-filtrados.png" alt="">
-    </section>
+<section class="seccion metodos container text-center">
+  <h2>☕ Métodos filtrados de café</h2>
+  <img class="imagen-final img-fluid" src="imagenes/metodos-filtrados.png" alt="Métodos filtrados de café como V60, Chemex y Aeropress">
+</section>
+
 
   </main>
 
   <!-- Zona del Footer -->
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo">
     <div class="contenedor footer-grid">
 
       <!-- Las redes Sociales -->
-      <ul class="footer-redes">
+      <ul class="footer-redes" aria-label="Redes sociales">
         <li><a href="#">Instagram</a></li>
         <li><a href="#">Facebook</a></li>
         <li><a href="#">X</a></li>
       </ul>
 
-      <!-- Zona de los Derechos ReservadosSs-->
+      <!-- Zona de los Derechos Reservados -->
       <p class="derechos">Derechos reservados por Daniel Andrés Sánchez Botta 2025</p>
     </div>
   </footer>
+
 
 </body>
 </html>
